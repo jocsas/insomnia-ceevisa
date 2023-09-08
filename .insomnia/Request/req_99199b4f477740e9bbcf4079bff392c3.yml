@@ -1,0 +1,43 @@
+_id: req_99199b4f477740e9bbcf4079bff392c3
+type: Request
+parentId: fld_a31604076e9e4e358e8809b8fd6c9194
+modified: 1694126175444
+created: 1688428364412
+url: https://api.sambacore.com/arquivo
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_36ad8ee96b1c40bfb9da1b3f586d22c0
+      name: arquivo
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\jocsa.santos\Downloads\sescoop-vertical.png
+    - id: pair_238d98797fd646d895b7d3cc3e0a8f68
+      name: aluno_id
+      value: 0955c3f4-b9ed-42b9-8703-bb4cd2e1f774
+      description: ""
+    - id: pair_1214cf52fc04454b8e90fd423b9269cb
+      name: type
+      value: certidao2
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - id: pair_e3627b249ebe48408aebe118dbb29191
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1692482517415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

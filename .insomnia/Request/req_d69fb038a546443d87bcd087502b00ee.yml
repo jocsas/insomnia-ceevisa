@@ -1,0 +1,23 @@
+_id: req_d69fb038a546443d87bcd087502b00ee
+type: Request
+parentId: fld_93567292d2da45f6a568f02a329c7458
+modified: 1693837061418
+created: 1693836845500
+url: "{{ _.base_url }}/student-resources/26171ef0-4405-4874-bc26-aa10cc7c4c3f"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693836845500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

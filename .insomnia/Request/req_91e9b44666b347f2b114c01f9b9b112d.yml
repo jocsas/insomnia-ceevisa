@@ -1,0 +1,28 @@
+_id: req_91e9b44666b347f2b114c01f9b9b112d
+type: Request
+parentId: fld_8d2f787745a14d59ae5697dc50f07271
+modified: 1688844382350
+created: 1663900368623
+url: "{{ _.base_url }}/alunos/75"
+name: Delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f4367cec1a1048fabe64c064f36ea037
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663828493219.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

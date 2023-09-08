@@ -1,0 +1,14 @@
+_id: env_425a1b1ab3c441fdabced25ba87670d8
+type: Environment
+parentId: env_154a0ab174d9c8f451298114a750dd69d51d77dc
+modified: 1694203511510
+created: 1694203444708
+name: PROD
+data:
+  base_url: https://api.sambacore.com
+dataPropertyOrder:
+  "&":
+    - base_url
+color: "#00ccff"
+isPrivate: false
+metaSortKey: 1694203444708

@@ -1,0 +1,24 @@
+_id: req_72cf58b7708c4655953d6d74e28f673d
+type: Request
+parentId: fld_ff68610ccb944c2996ffe75706b58255
+modified: 1692482583882
+created: 1687235621512
+url: "{{ _.base_url }}/logs/"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1687235621512
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

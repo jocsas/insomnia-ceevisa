@@ -1,0 +1,30 @@
+_id: req_e6d908db94ce439a995c799a05239197
+type: Request
+parentId: fld_fb06739ce28b49ceb913eb54daaab523
+modified: 1694174682419
+created: 1663805076090
+url: https://api.sambacore.com/tokens/
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "gWvA5OHD1Iysw5sHQt0EDpAxUy6JizGvQ0CIE6W2JNyAZZfR1F",
+    	"email": "9myatInyuIDvXogrudj_sudoQ@email.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9fcb873dcaa84b1d856c5687c0e641e6
+authentication: {}
+metaSortKey: -1663805076090
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

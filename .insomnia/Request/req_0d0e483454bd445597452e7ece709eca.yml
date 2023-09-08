@@ -1,0 +1,82 @@
+_id: req_0d0e483454bd445597452e7ece709eca
+type: Request
+parentId: fld_8d2f787745a14d59ae5697dc50f07271
+modified: 1691316396012
+created: 1663900386665
+url: "{{ _.base_url }}/alunos/"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "comp_rg": "",
+    "obs_aluno": "Sem observações",
+    "aluno_pcd": false,
+    "aluno_pcd_tipo": "",
+    "seguro_escolar": false,
+    "transferido": false,
+    "motivo_tranf": "",
+    "escola_ant": "",
+    "ano_ant": "",
+    "telefone_2": "",
+    "nome": "Ebrineu nem tu nem eu",
+    "data_nascimento": "15/08/2017",
+    "sexo": "Feminino",
+    "cpf_aluno": "98765432109",
+    "rg_aluno": "87654321",
+    "dt_emissao_rg_aluno": "14/08/2019",
+    "tp_sanguineo": "A+",
+    "telefone_1": "(21)88888-8888",
+    "endereco_rua": "Avenida Brasil",
+    "endereco_cep": "20000-000",
+    "endereco_bairro": "Centro",
+    "endereco_num": "456",
+    "endereco_comp": "Apartamento 101",
+    "endereco_estado": "Rio",
+    "endereco_cidade": "Rio de Janeiro",
+    "nome_mae": "Ana Silva",
+    "estado_civil_mae": "Solteira",
+    "profissao_mae": "Enfermeira",
+    "doc_mae": "87654321",
+    "oex_doc_mae": "DETRAN/RJ",
+    "dt_doc_mae": "01/01/2000",
+    "cpf_mae": "98765432109",
+    "dt_nascimento_mae": "20/02/1995",
+    "email_mae": "ana@email.com",
+    "nome_pai": "Carlos Santos",
+    "estado_civil_pai": "Solteiro",
+    "profissao_pai": "Médico",
+    "doc_pai": "7654321",
+    "oex_doc_pai": "DETRAN/RJ",
+    "dt_doc_pai": "01/01/2000",
+    "cpf_pai": "98765432109",
+    "dt_nascimento_pai": "01/01/2000",
+    "email_pai": "carlos@medico.com",
+    "parcelas": "13",
+    "data_vencimento": "05",
+    "forma_de_pagamento": "Cartão de crédito",
+    "valor_original": "750,00",
+    "valor_final": "650,00",
+    "data_adms": "10/02/2023",
+    "religiao": "Católica",
+    "turma_id": "2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f4367cec1a1048fabe64c064f36ea037
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663816784654.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

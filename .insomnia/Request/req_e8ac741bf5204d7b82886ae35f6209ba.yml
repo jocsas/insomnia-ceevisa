@@ -1,0 +1,29 @@
+_id: req_e8ac741bf5204d7b82886ae35f6209ba
+type: Request
+parentId: fld_4dbd80bd3df44587bbcf04fe69228502
+modified: 1687313133593
+created: 1663802623980
+url: "{{ _.base_url }}/users/"
+name: Index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d6823bdb5acf46a3ad3cffebb6dafcd8
+    name: authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAsImVtYWlsIjoidGVzdGUyQGVtYWlsLmNvbSIsImlhdCI6MTY2Mzg5Mjg5MiwiZXhwIjoxNjY0NDk3NjkyfQ.KlEWaiteckd73E5XW1Mi2CWnaIuu67miehaEckQA-mg
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663802623980
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

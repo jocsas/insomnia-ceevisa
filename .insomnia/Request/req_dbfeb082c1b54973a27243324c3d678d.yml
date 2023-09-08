@@ -1,0 +1,33 @@
+_id: req_dbfeb082c1b54973a27243324c3d678d
+type: Request
+parentId: fld_d4bf2b246e10469da13526a96e524d10
+modified: 1693933117778
+created: 1693932831407
+url: "{{ _.base_url }}/student-invoices/update/525"
+name: New Request
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "Pré 1",
+    	"value": "02",
+    	"due_day": "Manhã",
+    	"payment_status": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693932831407
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

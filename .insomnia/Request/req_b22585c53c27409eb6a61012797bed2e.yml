@@ -1,0 +1,45 @@
+_id: req_b22585c53c27409eb6a61012797bed2e
+type: Request
+parentId: fld_eb5a240e9ed7493c90910535663d0256
+modified: 1692482703116
+created: 1663901991573
+url: "{{ _.base_url }}/fotos/comprovantes"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_ea525722fe08444fba12a9422b5cd358
+      name: arquivo
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\jocsa.santos\Pictures\att.png
+      disabled: false
+    - id: pair_c93dde0b4d164a0f84b93eec3118fb3f
+      name: pagamento_id
+      value: "49"
+      description: ""
+      disabled: false
+    - id: pair_9e03a43ebf614b7fa0e6849f00830a04
+      name: aluno_id
+      value: "38"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_fd93b48eca2c48a988aa36aa8f2df1e2
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663901991573
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_3efad001d81143b59133f54ef2ea8793
+type: Request
+parentId: fld_4dbd80bd3df44587bbcf04fe69228502
+modified: 1694203978831
+created: 1663797515195
+url: "{{ _.base_url }}/users/"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Elza",
+    	"password": "mudarsenha",
+    	"email": "elza@ceevisa.com.br",
+    	"roles": [
+    		"admin",
+    		"root"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5c1f53dc19364920ab89bdd94a6dd5f2
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663797515195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

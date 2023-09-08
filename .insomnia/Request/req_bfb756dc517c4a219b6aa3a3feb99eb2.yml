@@ -1,0 +1,29 @@
+_id: req_bfb756dc517c4a219b6aa3a3feb99eb2
+type: Request
+parentId: fld_8d2f787745a14d59ae5697dc50f07271
+modified: 1693011717335
+created: 1663898744608
+url: "{{ _.base_url }}/alunos/search/findby?nome=jo&turma=5"
+name: Index
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f4367cec1a1048fabe64c064f36ea037
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663898744608
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

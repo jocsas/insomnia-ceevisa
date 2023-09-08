@@ -1,0 +1,29 @@
+_id: req_4b3b6aa06be94b05b8925eedc9a9d44a
+type: Request
+parentId: fld_80941950ae2d421abb8926d87420a7ed
+modified: 1674688830767
+created: 1674688131124
+url: "{{ _.base_url }}/notas"
+name: Deletar Nota
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"aluno_id" : 102,
+    	"id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674547872223.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

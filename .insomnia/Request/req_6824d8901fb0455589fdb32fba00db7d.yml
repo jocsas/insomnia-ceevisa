@@ -1,0 +1,36 @@
+_id: req_6824d8901fb0455589fdb32fba00db7d
+type: Request
+parentId: fld_4dbd80bd3df44587bbcf04fe69228502
+modified: 1687313677484
+created: 1663803190623
+url: "{{ _.base_url }}/users/"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"roles": "['admin', 'student']"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsImVtYWlsIjoidGVzdGVAZW1haWwuY29tIiwiaWF0IjoxNjYzODk3MDk3LCJleHAiOjE2NjQ1MDE4OTd9.OjJ4VbP2i5_sDDJJ10GZxl3kn29pxvnkqaIA6vtCYtI
+    id: pair_efa44732733f440d98b12cec061b1d5c
+    disabled: true
+  - name: Content-Type
+    value: application/json
+    id: pair_b608a49717874250ab97129a97dcfbe7
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1663803190623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

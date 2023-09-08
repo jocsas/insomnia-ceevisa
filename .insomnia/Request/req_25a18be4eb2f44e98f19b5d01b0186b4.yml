@@ -1,0 +1,28 @@
+_id: req_25a18be4eb2f44e98f19b5d01b0186b4
+type: Request
+parentId: fld_eb5a240e9ed7493c90910535663d0256
+modified: 1694143138546
+created: 1674063592673
+url: "{{ _.base_url }}/fotos/aluno/0955c3f4-b9ed-42b9-8703-bb4cd2e1f774"
+name: Show
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674063592673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

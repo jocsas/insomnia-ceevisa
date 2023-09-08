@@ -1,0 +1,25 @@
+_id: req_433c23a8d8994c7c8934c3ab7f99c83c
+type: Request
+parentId: fld_80941950ae2d421abb8926d87420a7ed
+modified: 1680274743297
+created: 1674687512795
+url: "{{ _.base_url }}/notas/"
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674687512795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

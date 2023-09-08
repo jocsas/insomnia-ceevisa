@@ -1,0 +1,23 @@
+_id: req_14998881a22c4f1989e36cba78aff2e4
+type: Request
+parentId: fld_a31604076e9e4e358e8809b8fd6c9194
+modified: 1694126142620
+created: 1692482517440
+url: https://api.sambacore.com/arquivo?aluno_id=494f5117-0885-478e-ac5a-2f1b092998f5
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692482517440
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

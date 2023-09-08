@@ -1,0 +1,24 @@
+_id: req_fc79fbb8b91e4fb3b075bdacf9b51963
+type: Request
+parentId: fld_017874c0f4a84c50a1c0acda08c414e4
+modified: 1692590563761
+created: 1674081462033
+url: "{{ _.base_url }}/turmas/5"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674067736915.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

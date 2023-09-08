@@ -1,0 +1,29 @@
+_id: req_58dc05a6e0624427a705a1853ca6a611
+type: Request
+parentId: fld_8d2f787745a14d59ae5697dc50f07271
+modified: 1692588960761
+created: 1663900360326
+url: "{{ _.base_url }}/alunos/b1f39da0-b7fb-4f1c-8c8c-68716b0cc792"
+name: Show
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f4367cec1a1048fabe64c064f36ea037
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663851910349
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

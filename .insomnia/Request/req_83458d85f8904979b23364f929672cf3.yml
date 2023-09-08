@@ -1,0 +1,35 @@
+_id: req_83458d85f8904979b23364f929672cf3
+type: Request
+parentId: fld_d4bf2b246e10469da13526a96e524d10
+modified: 1693933047164
+created: 1674089063821
+url: "{{ _.base_url }}/student-invoices"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "Pré 1",
+    	"value": "02",
+    	"due_day": "Manhã",
+    	"payment_status": "1",
+    	"student_uuid": "ad7d936c-c3c7-43dd-9001-10d0e94a021f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674071462424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

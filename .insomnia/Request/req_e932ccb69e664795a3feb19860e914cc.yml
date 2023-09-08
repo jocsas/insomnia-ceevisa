@@ -1,0 +1,23 @@
+_id: req_e932ccb69e664795a3feb19860e914cc
+type: Request
+parentId: fld_eb5a240e9ed7493c90910535663d0256
+modified: 1693512091357
+created: 1692488577924
+url: "{{ _.base_url }}/fotos"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692488577924
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

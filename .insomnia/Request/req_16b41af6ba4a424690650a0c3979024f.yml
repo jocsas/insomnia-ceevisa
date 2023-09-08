@@ -1,0 +1,30 @@
+_id: req_16b41af6ba4a424690650a0c3979024f
+type: Request
+parentId: fld_eb5a240e9ed7493c90910535663d0256
+modified: 1693613425100
+created: 1693514476678
+url: "{{ _.base_url }}/fotos/get-token"
+name: Check TOKEN
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"alunoId" : "fc06eef1-6098-464a-bfce-3949742c511c"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693514476678
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

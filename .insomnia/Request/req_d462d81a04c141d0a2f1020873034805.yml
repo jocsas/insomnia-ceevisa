@@ -1,0 +1,35 @@
+_id: req_d462d81a04c141d0a2f1020873034805
+type: Request
+parentId: fld_4dbd80bd3df44587bbcf04fe69228502
+modified: 1692763574928
+created: 1663803917309
+url: "{{ _.base_url }}/users/74"
+name: New Request
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_a92898b153994601b72347c974b6fb62
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAsImVtYWlsIjoidGVzdGUyQGVtYWlsLmNvbSIsImlhdCI6MTY2Mzg5Mjg5MiwiZXhwIjoxNjY0NDk3NjkyfQ.KlEWaiteckd73E5XW1Mi2CWnaIuu67miehaEckQA-mg
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: application/json
+    id: pair_6dda344e229544bcab88a1dd4bac4d4c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663803917309
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

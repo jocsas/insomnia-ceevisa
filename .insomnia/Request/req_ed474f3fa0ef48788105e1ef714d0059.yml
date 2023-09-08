@@ -1,0 +1,24 @@
+_id: req_ed474f3fa0ef48788105e1ef714d0059
+type: Request
+parentId: fld_017874c0f4a84c50a1c0acda08c414e4
+modified: 1692482672214
+created: 1674069584617
+url: "{{ _.base_url }}/turmas"
+name: Index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674069584617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

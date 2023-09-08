@@ -1,0 +1,24 @@
+_id: req_6e781da56f1940ada5d38d102225c1f3
+type: Request
+parentId: fld_d4bf2b246e10469da13526a96e524d10
+modified: 1693932762757
+created: 1674089063825
+url: "{{ _.base_url }}/student-invoices/"
+name: student_uuid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674067736915.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

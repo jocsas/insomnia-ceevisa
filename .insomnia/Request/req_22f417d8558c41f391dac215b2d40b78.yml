@@ -1,0 +1,24 @@
+_id: req_22f417d8558c41f391dac215b2d40b78
+type: Request
+parentId: fld_eb5a240e9ed7493c90910535663d0256
+modified: 1692482686469
+created: 1674065889214
+url: "{{ _.base_url }}/fotos/comprovantes/30"
+name: Index
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674065889214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

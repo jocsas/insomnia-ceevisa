@@ -1,0 +1,30 @@
+_id: req_2c31e9b887494472ad1bc81c9f640b2c
+type: Request
+parentId: fld_80941950ae2d421abb8926d87420a7ed
+modified: 1674690676311
+created: 1674688852205
+url: "{{ _.base_url }}/notas"
+name: Alterar Nota
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"aluno_id" : 102,
+    	"id": 6,
+    	"nota": "8"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674524598794.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

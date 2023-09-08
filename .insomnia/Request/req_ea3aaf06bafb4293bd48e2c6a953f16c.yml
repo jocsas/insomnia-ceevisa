@@ -1,0 +1,33 @@
+_id: req_ea3aaf06bafb4293bd48e2c6a953f16c
+type: Request
+parentId: fld_8d2f787745a14d59ae5697dc50f07271
+modified: 1692588113160
+created: 1663900456369
+url: "{{ _.base_url }}/alunos/321as3d21as3d21asd"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"matricula": 850,
+    	"nome": "João da Silva"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f4367cec1a1048fabe64c064f36ea037
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1663810930372.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

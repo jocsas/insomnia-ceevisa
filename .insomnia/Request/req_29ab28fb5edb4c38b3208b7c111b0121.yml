@@ -1,0 +1,34 @@
+_id: req_29ab28fb5edb4c38b3208b7c111b0121
+type: Request
+parentId: fld_017874c0f4a84c50a1c0acda08c414e4
+modified: 1692482649238
+created: 1674071462424
+url: "{{ _.base_url }}/turmas"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"seguimento": "Educação Infantil",
+    	"sala": "04",
+    	"turno": "Tarde",
+    	"serie": "Pré 2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: true
+metaSortKey: -1674071462424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

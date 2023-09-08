@@ -1,0 +1,26 @@
+_id: req_4da251c0d95e4d74b297a5c6e3772b63
+type: Request
+parentId: fld_4dbd80bd3df44587bbcf04fe69228502
+modified: 1663897365534
+created: 1663802875949
+url: "{{ _.base_url }}/users/20"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_204658aea1474b5d94d71279c3a8f991
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAsImVtYWlsIjoidGVzdGUyQGVtYWlsLmNvbSIsImlhdCI6MTY2Mzg5NjMxNSwiZXhwIjoxNjY0NTAxMTE1fQ.zfZHXZUuDh2fiHnB_vQuZO4W_nSTJjGl3g2phUeqJ2I
+    description: ""
+authentication: {}
+metaSortKey: -1663802875949
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_9cae24a278ef40ddba01831ee8131242
+type: Request
+parentId: fld_80941950ae2d421abb8926d87420a7ed
+modified: 1681337639776
+created: 1674687535193
+url: "{{ _.base_url }}/notas"
+name: Cadastrar Nota
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"aluno_id" : 6,
+    	"ano": "2023",
+    	"disciplina": "Portugues",
+    	"bimestre": "4",
+    	"avaliacao": 1,
+    	"nota": 21
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674594419080.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
